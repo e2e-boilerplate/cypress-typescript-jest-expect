@@ -1,16 +1,18 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/cypress-typescript-chai-expect/issues"
+    "url": "https://github.com/e2e-boilerplate/cypress-typescript-jest-expect/issues"
   },
   "dependencies": {
     "cypress": "4.3.0",
+    "cypress-jest-adapter": "0.1.1",
     "rimraf": "3.0.2",
+    "ts-loader": "6.2.2",
     "typescript": "3.8.3"
   },
-  "description": "Cypress end-to-end test automation boilerplate. Using TypeScript, Chai and Expect.",
+  "description": "Cypress end-to-end test automation boilerplate. Using TypeScript, Jest and Expect.",
   "devDependencies": {
-    "@types/chai": "4.2.11",
+    "@types/jest": "25.1.5",
     "eslint-plugin-cypress": "2.10.3",
     "husky": "4.2.3",
     "lint-staged": "10.1.1",
@@ -19,7 +21,7 @@
     "tslint-config-prettier": "1.18.0",
     "tslint-plugin-prettier": "2.3.0"
   },
-  "homepage": "https://github.com/e2e-boilerplate/cypress-typescript-chai-expect#readme",
+  "homepage": "https://github.com/e2e-boilerplate/cypress-typescript-jest-expect#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -27,13 +29,13 @@
   },
   "keywords": [
     "boilerplate",
-    "chai",
     "cypress",
     "e2e",
     "e2e tests",
     "example",
     "expect",
     "integration test",
+    "jest",
     "typescript"
   ],
   "license": "MIT",
@@ -42,10 +44,10 @@
       "prettier --write"
     ]
   },
-  "name": "cypress-typescript-chai-expect",
+  "name": "cypress-typescript-jest-expect",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/cypress-typescript-chai-expect.git"
+    "url": "git+https://github.com/e2e-boilerplate/cypress-typescript-jest-expect.git"
   },
   "scripts": {
     "clean:screenshots": "npx cypress/screenshots/*",
