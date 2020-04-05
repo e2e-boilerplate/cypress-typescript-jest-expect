@@ -7,7 +7,6 @@
     "cypress": "4.3.0",
     "cypress-jest-adapter": "0.1.1",
     "rimraf": "3.0.2",
-    "ts-loader": "6.2.2",
     "typescript": "3.8.3"
   },
   "description": "Cypress end-to-end test automation boilerplate. Using TypeScript, Jest and Expect.",
