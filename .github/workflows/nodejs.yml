@@ -2,7 +2,7 @@ name: cypress-typescript-jest-expect
 'on':
   push: null
   schedule:
-    - cron: 40 8 1-31/2 * *
+    - cron: 0 1 2-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
