@@ -9,3 +9,6 @@ Cypress end-to-end test automation boilerplate, Using TypeScript, Jest and Expec
     	2. cd cypress-typescript-jest-expect
     	3. npm install
     	4. npm run test
+        
+    
+For more boilerplate click [here](https://github.com/e2e-boilerplate/utils/blob/master/docs/implemented.md)
