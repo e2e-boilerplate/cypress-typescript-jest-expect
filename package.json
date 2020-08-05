@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/cypress-typescript-jest-expect/issues"
   },
   "dependencies": {
-    "cypress": "4.12.0",
+    "cypress": "4.12.1",
     "cypress-jest-adapter": "0.1.1",
     "rimraf": "3.0.2",
     "tsify": "5.0.0",
